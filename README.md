@@ -3,8 +3,8 @@
 
 ### Getting Started
 
-'''html
-<p>Future<void> payNow() async{
+'''dart
+Future<void> payNow() async{
     Sslcommerz sslcommerz = Sslcommerz(
         initializer: SSLCommerzInitialization(
             currency: SSLCurrencyType.BDT,
@@ -23,6 +23,6 @@
       print('Sslcommerz Amount${model.amount}');
       print("Sslcommerz status:${model.status}");
     }
-  }</p>
+  }
 '''
 
