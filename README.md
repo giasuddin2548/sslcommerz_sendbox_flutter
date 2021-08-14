@@ -3,7 +3,9 @@
 A new Flutter project.
 
 ### Getting Started
-<dependencies:
-  flutter_sslcommerz: ^2.0.0-nullsafety.0>
+<
+dependencies:
+  flutter_sslcommerz: ^2.0.0-nullsafety.0
+>
 
 
