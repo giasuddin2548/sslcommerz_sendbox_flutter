@@ -4,7 +4,7 @@
 ### Getting Started
 
 '''html
-<p>   Future<void> payNow() async{
+<p>Future<void> payNow() async{
     Sslcommerz sslcommerz = Sslcommerz(
         initializer: SSLCommerzInitialization(
             currency: SSLCurrencyType.BDT,
@@ -15,8 +15,7 @@
             total_amount: 140.2,
             tran_id: "SSS1454784")
     );
-
-    var result = await sslcommerz.payNow();
+   var result = await sslcommerz.payNow();
     if (result is PlatformException) {
       print("Sslcommerz MSG" + result.message.toString() + "Sslcommerz Code" + result.code);
     } else {
